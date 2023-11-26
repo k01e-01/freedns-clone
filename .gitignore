@@ -1,0 +1,5 @@
+\.mypy_cache
+poetry.lock
+\.env
+auth.yaml
+__pycache__

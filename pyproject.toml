@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "freednsclone"
+version = "0.1.0"
+description = "clone of freedns using desec.io"
+authors = ["k01e-01 <k01e.alm07@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+desec = "^0.0.3"
+fastapi = "^0.104.1"
+uvicorn = {extras = ["standard"], version = "^0.24.0.post1"}
+pyyaml = "^6.0.1"
+bcrypt = "^4.0.1"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+dataclasses-json = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
